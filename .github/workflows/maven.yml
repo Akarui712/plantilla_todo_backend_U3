@@ -16,7 +16,7 @@ jobs:
             - name: Checkout código
               uses: actions/checkout@v4
 
-            - name: Mostrar información del tag (debug)
+            - name: Mostrar información del tag (pruebas)
               run: |
                   echo "GITHUB_REF: $GITHUB_REF"
                   echo "GITHUB_REF_NAME: $GITHUB_REF_NAME"
